@@ -36,7 +36,7 @@ python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install spotipy
 ```
 
-### 3. Set your credentials
+### 3. Credentials
 
 In the **same terminal**, replace the placeholders with your spotify ID, secret, and URI, and run:
 
@@ -48,7 +48,7 @@ $env:SPOTIPY_REDIRECT_URI = "http://127.0.0.1:8888/callback"
 
 **NOTE: These commands must be reentered if you open a new terminal.**
 
-### 4. Start the game
+### 4. Play
 
 1. Open Spotify and play a song briefly for the program to detect spotify.
 2. Run (`python songguesser.py` in VSCode):
